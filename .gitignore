@@ -1,0 +1,22 @@
+# eBay Auth Session
+ebay-auth.json
+
+# Produktfotos (Ordnerstruktur bleibt, Bilder werden ignoriert)
+ebay fotos/*
+!ebay fotos/.gitkeep
+!ebay fotos/archiviert/
+ebay fotos/archiviert/*
+!ebay fotos/archiviert/.gitkeep
+*.jpeg
+*.jpg
+*.png
+
+# Playwright CLI Logs & State
+.playwright-cli/
+.playwright/
+
+# Claude Code
+.claude/settings.local.json
+
+# Temporäre Dateien
+*.tmp
